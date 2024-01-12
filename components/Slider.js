@@ -108,10 +108,10 @@ const Images = ({ imgIndex }) => {
             <div className="flex items-end grid grid-cols-1 w-1/3 p-2">
               <h1 className="text-gray-600 px-2 font-semibold">FujiFilm X32</h1>
               <div className="px-2 grid grid-cols-2 justify justify-items-start ">
-                      <p className="text-red-700 text-base line-through"> $25.00 </p>
-                      <p className="text-gray-600 text-base"> $15.00 </p>
+                      <p className="text-red-700 text-base line-through text-sm"> $25.00 </p>
+                      <p className="text-gray-600 text-base text-sm"> $15.00 </p>
               </div>
-              <button class="mx-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded">Amazon</button>
+              <button class="mx-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 rounded">Amazon</button>
             </div>
           </motion.div>
         );
